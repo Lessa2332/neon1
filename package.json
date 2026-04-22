@@ -1,0 +1,21 @@
+{
+  "name": "neon-bracelet-ar",
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src/**/*.js"
+  },
+  "dependencies": {
+    "three": "^0.170.0",
+    "@mediapipe/tasks-vision": "^0.10.15",
+    "@tresjs/post-processing": "^1.2.0"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0",
+    "vite-plugin-pwa": "^0.20.0",
+    "eslint": "^9.0.0"
+  }
+}
